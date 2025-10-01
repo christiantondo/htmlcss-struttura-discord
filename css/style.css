@@ -8,7 +8,7 @@
 body {
     background: #222222;
     color: white;
-    font-family: ;
+    font-family: sans-serif;
 }
 
 .boxed {
@@ -23,4 +23,56 @@ body {
 .dashed {
     border: dashed 2px black;
 }
+
+.bg-orange {
+    background-color: orange;
+}
+
 /* generic css end */
+
+header {
+    background: lightblue;
+    padding-top: 1em;
+    padding-bottom: 5px;
+}
+
+.header-container {
+    min-height: 50px;
+}
+
+.header-column-logo {
+    width: 20%;
+}
+
+.header-column-links {
+    width: 60%;
+    justify-content: center;
+}
+
+.header-column-login {
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.header-column-logo,
+.header-column-links,
+.header-column-login {
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: blue;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.jumbotron-container {
+    justify-content: center;
+    min-height: 250px;
+    padding: 1em 0;
+}
+
+.jumbotron-content {
+    background-color: violet;
+    width: 80%;
+}
